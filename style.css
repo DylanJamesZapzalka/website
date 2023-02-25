@@ -21,30 +21,33 @@
 
 
 /*Basic design choices*/
-html,body{
-    height: 100%;
+html {
     scroll-behavior: smooth;
 }
 body {
     font-family: 'Futura Light BT';
+    color: rgb(0, 0, 0);
+    max-width: 1440px;
+}
+main {
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 
 .profile-picture {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 8px;
-    background-color: blue;
+    padding: 6px;
+    background-color: rgb(64,64,64);
 }
 
 
 /*Defines CSS for each section in every page*/
-.about-section {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 48px;
-    margin-right: 48px;
-    scroll-margin: 100px;
+.every-section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    scroll-margin: 200px;
 }
 .about-section h1 {
     font-family: 'Futura Heavy BT';
@@ -71,12 +74,18 @@ body {
 
 /*CSS when the page collapses for small screens*/
 @media (max-width: 767.98px) {
-    .sidebar { background: black; position: fixed; top: 0; right: 0; left: 0; width: 100%;}
+    .sidebar { 
+        position: fixed; 
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
 }
 
 /*CSS when the page collapses for small screens*/
 @media (min-width: 768px) {
     .sidebar {
         width:240px;
+        color: rgb(225, 27, 27);
+        background-color: rgb(0, 0, 0);
     }
 }
