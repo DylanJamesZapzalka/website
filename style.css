@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+/*Define all of the fonts*/
+@font-face {
+    font-family: 'Futura Light BT';
+    src: url(fonts/futura\ light\ bt.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Futura Medium BT';
+    src: url(fonts/futura\ medium\ bt.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Futura Condensed BT';
+    src: url(fonts/futura\ medium\ condensed\ bt.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Futura Heavy BT';
+    src: url(fonts/Futura\ Heavy\ font.ttf) format('truetype');
+}
+
+
+
+/*Basic design choices*/
+html,body{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Futura Light BT';
+}
+
+
+.profile-picture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    background-color: blue;
+}
+
+
+/*Defines CSS for each section in every page*/
+.about-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 48px;
+    margin-right: 48px;
+    scroll-margin: 100px;
+}
+.about-section h1 {
+    font-family: 'Futura Heavy BT';
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.about-section h2 {
+    font-family: 'Futura Condensed BT';
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.about-section p {
+    font-family: 'Futura Light BT';
+    font-size: 20px;
+    margin-top:32px;
+}
+
+
+
+
+
+
+
+
+/*CSS when the page collapses for small screens*/
+@media (max-width: 767.98px) {
+    .sidebar { background: black; position: fixed; top: 0; right: 0; left: 0; width: 100%;}
+}
+
+/*CSS when the page collapses for small screens*/
+@media (min-width: 768px) {
+    .sidebar {
+        width:240px;
+    }
+}
