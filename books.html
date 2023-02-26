@@ -21,20 +21,20 @@
     <script src="script.js" type="text/javascript"></script>
 
     <!--Have everything in a single container and row. Container fluid is to fill the entire screen.-->
-    <div class="container-fluid">
-        <div class="row flex-nowrap">
+    <div class="container-fluid min-vh-100">
+        <div class="row flex-nowrap min-vh-100">
             
             <!--The sidebar-->
             <aside class="sidebar">
                 <nav class="navbar navbar-expand-md navbar-dark flex-md-column text-center sticky-top" id="sidebar">
 
                     <!--Name and picture-->
-                    <div class="text-center p-3">
-                        <img src="images/profile_pic.jpg" alt="Profile Picture" class="img-fluid rounded-circle profile-picture d-none d-md-block">
-                        <a href="./" class="navbar-brand mx-0 font-weight-bold text-nowrap">
+                    <a href="./" class="navbar-brand mx-0 font-weight-bold text-nowrap">
+                        <div class="text-center p-3">
+                            <img src="images/profile_pic.jpg" alt="Profile Picture" class="img-fluid rounded-circle profile-picture d-none d-md-block">
                             Dylan Zapzalka
-                        </a>
-                    </div>
+                        </div>
+                    </a>
 
                     <button type="button" class="navbar-toggler border-0 order-1" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -85,11 +85,18 @@
 
             <!--Main page content-->
             <main class="col">
-                <section class="every-section" id="about-section">
+                <section class="about-section every-section" id="about-section">
                     <h1>
-                        BOOKS!!!
+                        Dylan Zapzalka
                     </h1>
-
+                    <h2>
+                        1406 OAK ST. · BRAINERD, MN 56401 · (218) 839-7433 · DYLANJAMESZAPZALKA@HOTMAIL.COM
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="./books" class="rainbow">books</a> Phasellus ac velit in quam tempus posuere vitae quursus bibendum. Sed non tellus id magna vestibulum suscipit nec vel orci.
+                        Mauris imperdiet condimentum odio eu fermentum. Maecenas ac mattis mi. Nullam tincidunt lacinia interdum. Pellentesque convallis orci et viverra finibus. Nunc vel lacus vitae rpis tinciduatis. Nullam euismod tortor eget scelerisque tristique.
+                        sellus rhoncus gravida lacinia. Curabitur it lacinia. Sed convallis vehicula tellus, at imperdiet mi auctor tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                 </section>
                 <hr>
 
