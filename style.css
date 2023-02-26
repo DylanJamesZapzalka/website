@@ -42,6 +42,11 @@ main {
     background-color: rgb(64,64,64);
 }
 
+.navigation-baby {
+    margin-top: 20px;
+    width: 150px;  
+}
+
 
 /*Defines CSS for each section in every page*/
 .every-section {
